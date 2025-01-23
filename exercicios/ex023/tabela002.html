@@ -11,13 +11,23 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
+
+        
 
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            color: white;
+            top: -1px;
+            background-color: gray;
         }
 
         tbody > tr:nth-child(odd) {

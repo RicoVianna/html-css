@@ -16,7 +16,7 @@ header {
     background-color: rgb(148, 148, 148);
 }
 
-header h1 {
+header > h1 {
     text-align: center;
 }
 
@@ -33,6 +33,6 @@ menu li {
 }
 
 article {
-    width: 400px;
+    width: 600px;
     margin: auto;
 }
